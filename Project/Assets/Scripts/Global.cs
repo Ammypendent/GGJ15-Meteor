@@ -24,6 +24,19 @@ public static class Global {
 
 		GameRunning = true;
 	}
-	
+
+	public static void EndGame()
+	{
+		Debug.Log("The Game has ended! \n");
+		if (playerOneHealth > 0)
+		{
+			Debug.Log("Player One Survived the onslaught");
+		}
+		else
+		{
+			Debug.Log("Player Two Survived the onslaught");
+		}
+		GameRunning = false;
+	}
 	
 }
