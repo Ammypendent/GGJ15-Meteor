@@ -49,7 +49,7 @@ public class StartMenu : MonoBehaviour {
 				Application.LoadLevel("Level01");
 			}
 			
-			if (GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 65, 150, 25), "War Options"))
+			if (GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 65, 150, 25), "War Schemes"))
 			{
 				_isFirstMenu = false;
 				_isOptionsMenu = true;
@@ -93,14 +93,15 @@ public class StartMenu : MonoBehaviour {
 	{
 		if(_isOptionsMenu)
 		{
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 100, 150, 25), "Control Schemes"))
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 50, 150, 25), "War Schemes"))return;
 			{
-				GUI.Label(new Rect(Screen.width / 2 - 230, Screen.height / 2 - 180 , Controls.width / 2, Controls.height / 2),Controls);
+				GUI.contentColor = Color.white;
+				GUI.Label(new Rect(Screen.width / 2 - 505, Screen.height / 2 - 270 , Controls.width, Controls.height),Controls);
 			}
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 50, 150, 25), "Engineers"))
+			/*if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 50, 150, 25), "Engineers"))
 			{
 
-			}
+			}*/
 		}
 	}
 

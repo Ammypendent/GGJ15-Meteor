@@ -46,10 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\AndyRotate.cs" />
+     <Compile Include="Assets\Scripts\Asteroids\AsteroidCreator.cs" />
+     <Compile Include="Assets\Scripts\Asteroids\DecorativeAsteroid.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\CustomGravity.cs" />
+     <Compile Include="Assets\Scripts\Environment\DayCycle.cs" />
      <Compile Include="Assets\Scripts\GUI\Ambient.cs" />
      <Compile Include="Assets\Scripts\GUI\StartMenu.cs" />
-     <None Include="Assets\Skyboxes\_skybox info.txt" />
+     <Compile Include="Assets\Scripts\Global.cs" />
+     <Compile Include="Assets\Scripts\Guns\LeftGunControls.cs" />
+     <Compile Include="Assets\Scripts\Guns\RightGunControls.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
