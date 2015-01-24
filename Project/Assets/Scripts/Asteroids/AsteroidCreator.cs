@@ -15,7 +15,7 @@ public class AsteroidCreator : MonoBehaviour {
 	void Start () 
 	{
 		//Random side choosing
-		int Roll = Random.Range (1, 8);
+		int Roll = Random.Range (0, 8);
 		PlayerSide = Roll % 2 == 0 ? 1 : -1;
 
 		gameObject.transform.position = new Vector3 (Planet.transform.position.x + (PlayerSide) * DistanceFromPlanet, 0, 0);
@@ -29,7 +29,7 @@ public class AsteroidCreator : MonoBehaviour {
 		Timer -= Time.deltaTime;
 		if (Timer <= 0)
 		{
-			int AsteroidNumber = Random.Range(0, (Asteroids.Length-1));
+			int AsteroidNumber = Random.Range(0, (Asteroids.Length));
 			if (Asteroids[AsteroidNumber] != null)
 			{
 				Instantiate(Asteroids[AsteroidNumber]);
@@ -47,7 +47,7 @@ public class AsteroidCreator : MonoBehaviour {
 	void SwitchPosition ()
 	{
 		//Random side choosing
-		int Roll = Random.Range (1, 8);
+		int Roll = Random.Range (0, 8);
 		PlayerSide = Roll % 2 == 0 ? 1 : -1;
 
 		//Move the creator!
