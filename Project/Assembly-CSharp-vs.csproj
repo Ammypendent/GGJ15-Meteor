@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\Global.cs" />
      <Compile Include="Assets\Scripts\Guns\LeftGunControls.cs" />
      <Compile Include="Assets\Scripts\Guns\RightGunControls.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity 4/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
