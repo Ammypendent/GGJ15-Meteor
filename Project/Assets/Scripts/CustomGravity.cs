@@ -39,13 +39,27 @@ public class CustomGravity : MonoBehaviour
 		rigidbody.AddForce((v3GravityCenter - transform.position).normalized * Physics.gravity.magnitude, ForceMode.Acceleration);
 	}
 
+	public void Impact(Vector3 destination)
+	{
+		StartCoroutine(DelayTeleport(destination));
+		//UpdateVelocity();
+	}
+
 	void UpdateVelocity()
 	{
-		rigidbody.velocity *= -1;
+		rigidbody.velocity *= -0.5f;
 	}
 
 	void Teleport(Vector3 destination)
 	{
 		transform.position = destination;
+	}
+
+	IEnumerator DelayTeleport(Vector3 destination)
+	{
+
+		yield return new WaitForSeconds(0.3f);
+		Teleport(destination);
+		UpdateVelocity();
 	}
 }

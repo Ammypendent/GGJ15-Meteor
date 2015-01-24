@@ -26,7 +26,7 @@ public class AsteroidCreator : MonoBehaviour {
 	void Start () 
 	{
 		//Random side choosing
-		int Roll = Random.Range (0, 8); //would setting max to 7 give make max roll 6?
+		int Roll = Random.Range (0, 8); //would setting max to 7 give make max roll 6? (Yep. Integer Random is exclusive, so you don't see the maximum value)
 		playerSide = Roll % 2 == 0 ? 1 : -1;
 
 		gameObject.transform.position = new Vector3 (Planet.transform.position.x + (playerSide) * distanceFromPlanet, 0, 0);
