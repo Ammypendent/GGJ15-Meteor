@@ -4,6 +4,7 @@ using System.Collections;
 public class LeftGunControls : MonoBehaviour {
 
 	public int gunSpeed;
+	public GameObject bullet;
 
 	// Use this for initialization
 	void Start () {
@@ -18,5 +19,10 @@ public class LeftGunControls : MonoBehaviour {
 		
 		if (Input.GetKey("s") && this.transform.position.y > -0.215)
 			this.transform.RotateAround (Vector3.zero, Vector3.forward, gunSpeed * Time.deltaTime);
+
+		if (Input.GetKeyDown ("space")) 
+		{
+			Instantiate(bullet, this.transform.position, Quaternion.identity);
+		}
 	}
 }
