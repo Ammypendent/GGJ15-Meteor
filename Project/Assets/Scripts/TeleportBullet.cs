@@ -45,7 +45,7 @@ public class TeleportBullet : MonoBehaviour
 							//*** TODO!! -- ADD GRAPHICS ***
 							//Instantiate(***TELEPORT POINT A***, transform.position, Quaternion.identity);
 							//Instantiate(***TELEPORT POINT B***, new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-0.125f, 0.125f), hit.collider.transform.position.z), Quaternion.identity);
-							otherScript.Impact(new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-12.5f, 12.5f), hit.collider.transform.position.z));
+							otherScript.Impact(new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 35f, hit.collider.transform.position.y + Random.Range(-12.5f, 12.5f), hit.collider.transform.position.z));
 						}
 //						else// if(bulletType == BType.TimeDilation)
 //						{

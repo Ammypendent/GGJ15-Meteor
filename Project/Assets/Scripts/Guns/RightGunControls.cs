@@ -11,8 +11,17 @@ public class RightGunControls : MonoBehaviour {
 	private float currentTeleportCooldown;
 	private float currentTimeCooldown;
 
+	private bool moving;
+	private Quaternion lastRot;
+	public GameObject flamePrefab;
+	GameObject flame;
+	public Transform topFlamePos;
+	public Transform bottomFlamePos;
+
 	// Use this for initialization
 	void Start () {
+		moving = false;
+		lastRot = transform.rotation;
 
 		currentTeleportCooldown = 10f;
 		currentTimeCooldown = 10f;
@@ -23,10 +32,32 @@ public class RightGunControls : MonoBehaviour {
 	void Update () {
 		currentTeleportCooldown += Time.deltaTime;
 		currentTimeCooldown += Time.deltaTime;
+		if(transform.rotation == lastRot)
+		{
+			moving = false;
+			Destroy(flame);
+		}
+		lastRot = transform.rotation;
 	}
 
 	public void moveGun(float speed)
 	{
+		if(!moving)
+		{
+			if(speed > 0)
+			{
+				Quaternion spawnAngle = Quaternion.LookRotation(bottomFlamePos.forward, -bottomFlamePos.up);
+				flame = Instantiate(flamePrefab, bottomFlamePos.position, spawnAngle) as GameObject;
+				flame.transform.parent = bottomFlamePos;
+			}
+			else if(speed < 0)
+			{
+				Quaternion spawnAngle = Quaternion.LookRotation(topFlamePos.forward, topFlamePos.up);
+				flame = Instantiate(flamePrefab, topFlamePos.position, spawnAngle) as GameObject;
+				flame.transform.parent = topFlamePos;
+			}
+		}
+		moving = true;
 		if ((speed > 0 && this.transform.position.y < 21.5) || (speed < 0 && this.transform.position.y > -21.5))
 				this.transform.RotateAround (Vector3.zero, Vector3.forward, speed * gunSpeed * Time.deltaTime);
 	}
@@ -40,6 +71,7 @@ public class RightGunControls : MonoBehaviour {
 			spawnPoint.y *= 42.5f;
 			spawnPoint.z *= 42.5f;
 			Instantiate (bullet, spawnPoint, Quaternion.identity);
+			currentTeleportCooldown = 0.0f;
 		}
 	}
 
@@ -52,7 +84,17 @@ public class RightGunControls : MonoBehaviour {
 			spawnPoint.y *= 42.5f;
 			spawnPoint.z *= 42.5f;
 			Instantiate (timeBullet, spawnPoint, Quaternion.identity);
+			currentTimeCooldown = 0.0f;
 		}
+	}
+
+	public float GetTeleportTimer()
+	{
+		return currentTeleportCooldown;
+	}
+	public float GetDilationTimer()
+	{
+		return currentTimeCooldown;
 	}
 
 }

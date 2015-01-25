@@ -7,6 +7,9 @@ public static class Global {
 	public static bool GameRunning;
 	public static bool GameFinished;
 
+	public static int playerOneHealthMax;
+	public static int playerTwoHealthMax;
+
 	public static int playerOneHealth;
 	public static int playerTwoHealth;
 
@@ -21,8 +24,10 @@ public static class Global {
 
 	public static void StartGame ()
 	{
-		playerOneHealth = 20;
-		playerTwoHealth = 20;
+		playerOneHealthMax = 15;
+		playerTwoHealthMax = 15;
+		playerOneHealth = playerOneHealthMax;
+		playerTwoHealth = playerTwoHealthMax;
 		// Change these if health is updated.  
 		// 50% max health for medium, 25% max health for fast.
 		mediumMusic = 10;
