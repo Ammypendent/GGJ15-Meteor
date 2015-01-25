@@ -12,15 +12,32 @@ public class StartMenu : MonoBehaviour {
 	public static bool GameFinished;
 	public static int playerOneHealth = 20;
 	public static int playerTwoHealth= 20;
+	string[] buttons = new string[3] {"Begin Annihilation", "How To Play", "Quit"};
+	int selected = 0;
 
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Global.GameFinished) {
+		if(Input.GetKeyDown(KeyCode.W))
+		{
+			
+			selected = menuSelection(buttons, selected, "up");
+			
+		}
+		
+		if(Input.GetKeyDown(KeyCode.S))
+		{
+			
+			selected = menuSelection(buttons, selected, "down");
+			
+		}
+		if (Global.GameFinished) 
+		{
 		// Hud Menu changes to Finished Game
 			
-			_isFinishedMenu = true;		}
+			_isFinishedMenu = true;		
+		}
 
 	}
 	
@@ -33,7 +50,27 @@ public class StartMenu : MonoBehaviour {
 		ControlMenu();
 		FinishedMenu();
 
-
+		GUI.SetNextControlName(buttons[0]);
+		
+		if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), buttons[0]))
+		{
+			_isFirstMenu = false;
+			Global.StartGame ();
+		}
+		GUI.SetNextControlName(buttons[1]);
+		
+		if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 75, 150, 50), buttons[1]))
+		{			
+			_isFirstMenu = false;
+			_isControlMenu = true;
+		}
+		GUI.SetNextControlName(buttons[2]);
+		
+		if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 25, 150, 50), buttons[2]))
+		{
+			Application.Quit();
+		}
+		GUI.FocusControl(buttons[selected]);
 		
 		if(_isControlMenu == true)
 		{
@@ -44,28 +81,68 @@ public class StartMenu : MonoBehaviour {
 				_isFirstMenu = true;
 			}
 		}
+
+		
 	}
+		void Start(){
+			
+			selected = 0;
+			
+		}
+		int menuSelection (string[] buttonsArray, int selectedItem, string direction) {
+			
+			if (direction == "up") {
+				
+				if (selectedItem == 0) {
+					
+					selectedItem = buttonsArray.Length - 1;
+					
+				} else {
+					
+					selectedItem -= 1;
+					
+				}
+				
+			}
+			
+			if (direction == "down") {
+				
+				if (selectedItem == buttonsArray.Length - 1) {
+					
+					selectedItem = 0;
+					
+				} else {
+					
+					selectedItem += 1;
+					
+				}
+				
+			}
+			
+			return selectedItem;
+			
+		}
 	
 	void FirstMenu()
 	{
 		if (_isFirstMenu) // Main Menu
 		{
-		if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 100, 150, 25), "Begin Annihilation")) 
+		/*if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), "Begin Annihilation")) 
 			{
 					_isFirstMenu = false;
 					Global.StartGame ();
 			}
 
-			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 65, 150, 25), "How To Play")) 
+			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 75, 150, 50), "How To Play")) 
 			{
 					_isFirstMenu = false;
 					_isControlMenu = true;
 			}
 
-			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 30, 150, 25), "Quit")) 
+			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 25, 150, 50), "Quit")) 
 			{
 					Application.Quit();
-			}
+			}*/
 
 			//this is just for testing take out soon
 			/*if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 10, 150, 25), "Finals")) 
