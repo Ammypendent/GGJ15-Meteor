@@ -11,6 +11,9 @@ public class LeftGunControls : MonoBehaviour {
 	private float currentTeleportCooldown;
 	private float currentTimeCooldown;
 
+	float currentspeed;
+	public float slowDownRate = 3;
+
 	// Use this for initialization
 	void Start () {
 
@@ -23,12 +26,38 @@ public class LeftGunControls : MonoBehaviour {
 	void Update () {
 		currentTeleportCooldown += Time.deltaTime;
 		currentTimeCooldown += Time.deltaTime;
+
+		if (currentspeed > 0)
+		{
+			currentspeed -= slowDownRate*Time.deltaTime;
+			if (currentspeed <0)
+			{
+				currentspeed = 0;
+			}
+		}
+		else if (currentspeed < 0)
+		{
+			currentspeed += slowDownRate*Time.deltaTime;
+			if (currentspeed > 0)
+			{
+				currentspeed = 0;
+			}
+		}
+		if ((currentspeed> 0 && this.transform.position.y < 21.5) || (currentspeed < 0 && this.transform.position.y > -21.5))
+		{
+			this.transform.RotateAround (Vector3.zero, Vector3.back, currentspeed * gunSpeed * Time.deltaTime);
+		}
+
 	}
 
 	public void moveGun(float speed)
 	{
-		if ((speed > 0 && this.transform.position.y < 21.5) || (speed < 0 && this.transform.position.y > -21.5))
-			this.transform.RotateAround (Vector3.zero, Vector3.back, speed * gunSpeed * Time.deltaTime);
+		if (speed != 0)
+		{
+			currentspeed = speed;
+		}
+
+
 	}
 	
 	public void fireTeleport()
