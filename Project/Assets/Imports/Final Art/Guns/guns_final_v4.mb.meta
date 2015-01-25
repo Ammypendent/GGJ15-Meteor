@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: b067ed7bd4fdaf0469ed3cdd25996940
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: barrel
+    100002: curve1
+    100004: gun
+    100006: //RootNode
+    100008: left_tube
+    100010: pCube1
+    100012: pCube2
+    100014: pCube3
+    100016: pCylinder1
+    100018: pCylinder15
+    100020: pCylinder16
+    100022: pCylinder4
+    100024: pCylinder5
+    100026: polySurface15
+    100028: polySurface3
+    100030: pSphere3
+    100032: pSphere4
+    100034: pSphere5
+    100036: right_tube
+    100038: transform1
+    100040: transform10
+    100042: transform11
+    100044: transform12
+    100046: transform13
+    100048: transform14
+    100050: transform2
+    100052: transform21
+    100054: transform5
+    100056: transform6
+    100058: transform7
+    100060: transform8
+    100062: transform9
+    100064: whole_gun2
+    100066: whole_gun3
+    400000: barrel
+    400002: curve1
+    400004: gun
+    400006: //RootNode
+    400008: left_tube
+    400010: pCube1
+    400012: pCube2
+    400014: pCube3
+    400016: pCylinder1
+    400018: pCylinder15
+    400020: pCylinder16
+    400022: pCylinder4
+    400024: pCylinder5
+    400026: polySurface15
+    400028: polySurface3
+    400030: pSphere3
+    400032: pSphere4
+    400034: pSphere5
+    400036: right_tube
+    400038: transform1
+    400040: transform10
+    400042: transform11
+    400044: transform12
+    400046: transform13
+    400048: transform14
+    400050: transform2
+    400052: transform21
+    400054: transform5
+    400056: transform6
+    400058: transform7
+    400060: transform8
+    400062: transform9
+    400064: whole_gun2
+    400066: whole_gun3
+    2300000: pCube3
+    2300002: polySurface15
+    2300004: polySurface3
+    2300006: pSphere5
+    3300000: pCube3
+    3300002: polySurface15
+    3300004: polySurface3
+    3300006: pSphere5
+    4300000: pCube3
+    4300002: pSphere5
+    4300004: polySurface15
+    4300006: polySurface3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
