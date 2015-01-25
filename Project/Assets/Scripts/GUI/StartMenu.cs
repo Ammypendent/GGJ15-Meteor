@@ -2,6 +2,17 @@
 using System.Collections;
 
 public class StartMenu : MonoBehaviour {
+
+
+	public enum menuIs
+	{
+		Start,
+		Control,
+		HUD,
+		Finished
+	}
+	private menuIs ourMenu;
+
 	private bool _isFirstMenu = true;
 	private bool _isFinishedMenu = false;
 	private bool _isControlMenu = false;
@@ -12,31 +23,42 @@ public class StartMenu : MonoBehaviour {
 	public static bool GameFinished;
 	public static int playerOneHealth = 20;
 	public static int playerTwoHealth= 20;
-	string[] buttons = new string[3] {"Begin Annihilation", "How To Play", "Quit"};
+	string[] startMenuButtons= new string[3] {"Begin Annihilation", "How To Play", "Quit"};
 	int selected = 0;
 
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if(Input.GetKeyDown(KeyCode.W))
-		{
-			
-			selected = menuSelection(buttons, selected, "up");
-			
-		}
 		
-		if(Input.GetKeyDown(KeyCode.S))
+		if (ourMenu == menuIs.Start || ourMenu == menuIs.Control)
 		{
+			if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.DownArrow))
+			{
+				selected = menuSelection(buttons, selected, "up");
+			}
 			
-			selected = menuSelection(buttons, selected, "down");
-			
+			if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.UpArrow))
+			{
+				selected = menuSelection(buttons, selected, "down");
+			}
 		}
+		else if (ourMenu == menuIs.Finished)
+		{
+			if (Input.GetKeyDown(KeyCode.Return))// || Input.GetKeyDown(KeyCode.Space))
+			{
+				ourMenu = menuIs.Start;
+				Global.GameFinished = false;
+			}
+		}
+		else if (ourMenu == menuIs.HUD)
+		{
+
+		}
+
 		if (Global.GameFinished) 
 		{
-		// Hud Menu changes to Finished Game
-			
-			_isFinishedMenu = true;		
+			ourMenu = menuIs.Finished;
 		}
 
 	}
@@ -52,24 +74,6 @@ public class StartMenu : MonoBehaviour {
 
 		GUI.SetNextControlName(buttons[0]);
 		
-		if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), buttons[0]))
-		{
-			_isFirstMenu = false;
-			Global.StartGame ();
-		}
-		GUI.SetNextControlName(buttons[1]);
-		
-		if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 75, 150, 50), buttons[1]))
-		{			
-			_isFirstMenu = false;
-			_isControlMenu = true;
-		}
-		GUI.SetNextControlName(buttons[2]);
-		
-		if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 25, 150, 50), buttons[2]))
-		{
-			Application.Quit();
-		}
 		GUI.FocusControl(buttons[selected]);
 		
 		if(_isControlMenu == true)
@@ -127,6 +131,26 @@ public class StartMenu : MonoBehaviour {
 	{
 		if (_isFirstMenu) // Main Menu
 		{
+
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), buttons[0]))
+			{
+				_isFirstMenu = false;
+				Global.StartGame ();
+			}
+			GUI.SetNextControlName(buttons[1]);
+			
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 75, 150, 50), buttons[1]))
+			{			
+				ourMenu = menuIs.Control;
+			}
+			GUI.SetNextControlName(buttons[2]);
+			
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 25, 150, 50), buttons[2]))
+			{
+				Application.Quit();
+			}
+
+
 		/*if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), "Begin Annihilation")) 
 			{
 					_isFirstMenu = false;
@@ -158,8 +182,8 @@ public class StartMenu : MonoBehaviour {
 	{
 		if(_isControlMenu)
 		{
-				_isFirstMenu = false;
-				GUI.contentColor = Color.white;
+			_isFirstMenu = false;
+			GUI.contentColor = Color.white;
 			GUI.DrawTexture(new Rect(0, 0, (Screen.width), (Screen.height)),Controls);
 			//GUI.Label(new Rect(0, 0, (Screen.width), (Screen.height)),Controls1);
 
@@ -173,8 +197,7 @@ public class StartMenu : MonoBehaviour {
 		{
 			if (GUI.Button (new Rect (Screen.width / 2, Screen.height - 60, 150, 25), "Continue")) 
 			{
-				_isFirstMenu = true;
-				_isFinishedMenu = false;
+				ourMenu = menuIs.Start;
 			}
 		}
 	}
