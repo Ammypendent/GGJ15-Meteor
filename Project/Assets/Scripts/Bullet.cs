@@ -9,9 +9,6 @@ public class Bullet : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		// This doesn't work because I don't know.
-		//if (this.transform.position != Vector3.zero)
-			//Object.Destroy (this, 0.5f);
 		cleanupTimer = 2.5f;
 		self = gameObject;
 	}
