@@ -1,12 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LeftGunControls.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MasterControlScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\LeftGunControls.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MasterControlScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Guns\LeftGunControls.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Guns\RightGunControls.cs" Line="1" Column="1" />
       <File FileName="Assets\XInputDotNet\Examples\XInputTestCS.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RightGunControls.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
