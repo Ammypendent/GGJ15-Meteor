@@ -1,7 +1,32 @@
-*.meta
-/Project/Library
-/Project/Library/metadata
-/Project/Library/ScriptAssemblies
-/Project/Temp
-/Project/Assembly-CSharp-vs.csproj
-/Project/Assembly-CSharp.csproj
+# =============== #
+# Unity generated #
+# =============== #
+/Project/[Tt]emp/
+/Project/[Oo]bj/
+/Project/[Bb]uild
+/Project/[Ll]ibrary/
+/Project/sysinfo.txt
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+/Project/[Ee]xported[Oo]bj/
+/Project/*.userprefs
+/Project/*.csproj
+/Project/*.pidb
+/Project/*.suo
+/Project/*.sln*
+/Project/*.user
+/Project/*.unityproj
+/Project/*.booproj 
+
+
+
+# == Previous version of .gitignore #
+#*.meta
+#/Project/Library
+#/Project/Library/metadata
+#/Project/Library/ScriptAssemblies
+#/Project/Temp
+#/Project/Assembly-CSharp-vs.csproj
+#/Project/Assembly-CSharp.csproj
