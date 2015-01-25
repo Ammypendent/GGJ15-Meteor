@@ -53,7 +53,6 @@
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\CustomGravity.cs" />
      <Compile Include="Assets\Scripts\Environment\DayCycle.cs" />
-     <Compile Include="Assets\Scripts\GUI\Ambient.cs" />
      <Compile Include="Assets\Scripts\GUI\HUD.cs" />
      <Compile Include="Assets\Scripts\GUI\StartMenu.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
@@ -68,10 +67,14 @@
      <Compile Include="Assets\XInputDotNet\Examples\XInputTestCS.cs" />
      <None Include="Assets\Shaders\BackgroundScreenProjection.shader" />
      <None Include="Assets\Imports\BackgroundScreenProjection.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Shaders\Normal Specular.shader" />
      <None Include="Assets\Shaders\TransparentCutoutUnlit.shader" />
      <None Include="Assets\XInputDotNet\MITLicense.txt" />
      <None Include="Assets\Shaders\Normal Specular RimLight.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/student/Desktop/GGJ15-Meteor/Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

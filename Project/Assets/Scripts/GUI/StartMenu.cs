@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using UnityEngine;
 using System.Collections;
 
@@ -218,7 +217,7 @@ public class StartMenu : MonoBehaviour {
 		}
 	}
 }
-=======
+
 ﻿//using UnityEngine;
 //using System.Collections;
 //
@@ -423,4 +422,3 @@ public class StartMenu : MonoBehaviour {
 //		}
 //	}
 //}
->>>>>>> origin/master
