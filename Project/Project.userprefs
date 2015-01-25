@@ -1,22 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CustomGravity.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Global.cs">
     <Files>
-      <File FileName="Assets\Scripts\GUI\StartMenu.cs" Line="205" Column="1" />
-      <File FileName="Assets\Scripts\CustomGravity.cs" Line="68" Column="3" />
-      <File FileName="Assets\Shaders\Normal Specular RimLight.shader" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MasterControlScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Guns\LeftGunControls.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Guns\RightGunControls.cs" Line="45" Column="1" />
-      <File FileName="Assets\XInputDotNet\Examples\XInputTestCS.cs" Line="1" Column="1" />
-      <File FileName="Assets\Shaders\BackgroundScreenProjection.shader" Line="1" Column="1" />
-      <File FileName="Assets\Shaders\Normal Specular.shader" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TeleportBullet.cs" Line="66" Column="78" />
-      <File FileName="Assets\Scripts\Bullet.cs" Line="35" Column="1" />
-      <File FileName="Assets\Scripts\Asteroids\AsteroidCreator.cs" Line="25" Column="32" />
-      <File FileName="Assets\Scripts\Asteroids\DecorativeAsteroid.cs" Line="14" Column="45" />
-      <File FileName="Assets\Scripts\Guns\PreviewAim.cs" Line="34" Column="64" />
-      <File FileName="Assets\Scripts\TimeDilation.cs" Line="33" Column="8" />
+      <File FileName="Assets\Scripts\GUI\StartMenu.cs" Line="174" Column="5" />
+      <File FileName="Assets\Scripts\Global.cs" Line="55" Column="1" />
+      <File FileName="c:\Users\Justin\Desktop\GGJ15\Project\Assets\Scripts\MasterControlScript.cs" Line="5" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
