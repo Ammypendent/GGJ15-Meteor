@@ -3,8 +3,9 @@ guid: 108063e2d5c2c564ca4950155e994f98
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - title: {instanceID: 0}
-  - Controls: {fileID: 2800000, guid: 604014a44fed2d44a9b8f54f477ede0d, type: 3}
+  - title: {fileID: 2800000, guid: 9ee6567c77a26f343b18e778246b5989, type: 3}
+  - Controls: {fileID: 2800000, guid: 206f808117346cf4da3d1a050272cca8, type: 3}
+  - Controls1: {fileID: 2800000, guid: 25a1cb879079a2743aeefeded82da069, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
