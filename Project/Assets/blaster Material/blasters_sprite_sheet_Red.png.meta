@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: db7c3ed040bd73948b4d616f700b8cb3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blasters_sprite_sheet_Red_0
+    21300002: blasters_sprite_sheet_Red_1
+    21300004: blasters_sprite_sheet_Red_2
+    21300006: blasters_sprite_sheet_Red_3
+    21300008: blasters_sprite_sheet_Red_4
+    21300010: blasters_sprite_sheet_Red_5
+    21300012: blasters_sprite_sheet_Red_6
+    21300014: blasters_sprite_sheet_Red_7
+    21300016: blasters_sprite_sheet_Red_8
+    21300018: blasters_sprite_sheet_Red_9
+    21300020: blasters_sprite_sheet_Red_10
+    21300022: blasters_sprite_sheet_Red_11
+    21300024: blasters_sprite_sheet_Red_12
+    21300026: blasters_sprite_sheet_Red_13
+    21300028: blasters_sprite_sheet_Red_14
+    21300030: blasters_sprite_sheet_Red_15
+    21300032: blasters_sprite_sheet_Red_16
+    21300034: blasters_sprite_sheet_Red_17
+    21300036: blasters_sprite_sheet_Red_18
+    21300038: blasters_sprite_sheet_Red_19
+    21300040: blasters_sprite_sheet_Red_20
+    21300042: blasters_sprite_sheet_Red_21
+    21300044: blasters_sprite_sheet_Red_22
+    21300046: blasters_sprite_sheet_Red_23
+    21300048: blasters_sprite_sheet_Red_24
+    21300050: blasters_sprite_sheet_Red_25
+    21300052: blasters_sprite_sheet_Red_26
+    21300054: blasters_sprite_sheet_Red_27
+    21300056: blasters_sprite_sheet_Red_28
+    21300058: blasters_sprite_sheet_Red_29
+    21300060: blasters_sprite_sheet_Red_30
+    21300062: blasters_sprite_sheet_Red_31
+    21300064: blasters_sprite_sheet_Red_32
+    21300066: blasters_sprite_sheet_Red_33
+    21300068: blasters_sprite_sheet_Red_34
+    21300070: blasters_sprite_sheet_Red_35
+    21300072: blasters_sprite_sheet_Red_36
+    21300074: blasters_sprite_sheet_Red_37
+    21300076: blasters_sprite_sheet_Red_38
+    21300078: blasters_sprite_sheet_Red_39
+    21300080: blasters_sprite_sheet_Red_40
+    21300082: blasters_sprite_sheet_Red_41
+    21300084: blasters_sprite_sheet_Red_42
+    21300086: blasters_sprite_sheet_Red_43
+    21300088: blasters_sprite_sheet_Red_44
+    21300090: blasters_sprite_sheet_Red_45
+    21300092: blasters_sprite_sheet_Red_46
+    21300094: blasters_sprite_sheet_Red_47
+    21300096: blasters_sprite_sheet_Red_48
+    21300098: blasters_sprite_sheet_Red_49
+    21300100: blasters_sprite_sheet_Red_50
+    21300102: blasters_sprite_sheet_Red_51
+    21300104: blasters_sprite_sheet_Red_52
+    21300106: blasters_sprite_sheet_Red_53
+    21300108: blasters_sprite_sheet_Red_54
+    21300110: blasters_sprite_sheet_Red_55
+    21300112: blasters_sprite_sheet_Red_56
+    21300114: blasters_sprite_sheet_Red_57
+    21300116: blasters_sprite_sheet_Red_58
+    21300118: blasters_sprite_sheet_Red_59
+    21300120: blasters_sprite_sheet_Red_60
+    21300122: blasters_sprite_sheet_Red_61
+    21300124: blasters_sprite_sheet_Red_62
+    21300126: blasters_sprite_sheet_Red_63
+    21300128: blasters_sprite_sheet_Red_64
+    21300130: blasters_sprite_sheet_Red_65
+    21300132: blasters_sprite_sheet_Red_66
+    21300134: blasters_sprite_sheet_Red_67
+    21300136: blasters_sprite_sheet_Red_68
+    21300138: blasters_sprite_sheet_Red_69
+    21300140: blasters_sprite_sheet_Red_70
+    21300142: blasters_sprite_sheet_Red_71
+    21300144: blasters_sprite_sheet_Red_72
+    21300146: blasters_sprite_sheet_Red_73
+    21300148: blasters_sprite_sheet_Red_74
+    21300150: blasters_sprite_sheet_Red_75
+    21300152: blasters_sprite_sheet_Red_76
+    21300154: blasters_sprite_sheet_Red_77
+    21300156: blasters_sprite_sheet_Red_78
+    21300158: blasters_sprite_sheet_Red_79
+    21300160: blasters_sprite_sheet_Red_80
+    21300162: blasters_sprite_sheet_Red_81
+    21300164: blasters_sprite_sheet_Red_82
+    21300166: blasters_sprite_sheet_Red_83
+    21300168: blasters_sprite_sheet_Red_84
+    21300170: blasters_sprite_sheet_Red_85
+    21300172: blasters_sprite_sheet_Red_86
+    21300174: blasters_sprite_sheet_Red_87
+    21300176: blasters_sprite_sheet_Red_88
+    21300178: blasters_sprite_sheet_Red_89
+    21300180: blasters_sprite_sheet_Red_90
+    21300182: blasters_sprite_sheet_Red_91
+    21300184: blasters_sprite_sheet_Red_92
+    21300186: blasters_sprite_sheet_Red_93
+    21300188: blasters_sprite_sheet_Red_94
+    21300190: blasters_sprite_sheet_Red_95
+    21300192: blasters_sprite_sheet_Red_96
+    21300194: blasters_sprite_sheet_Red_97
+    21300196: blasters_sprite_sheet_Red_98
+    21300198: blasters_sprite_sheet_Red_99
+    21300200: blasters_sprite_sheet_Red_100
+    21300202: blasters_sprite_sheet_Red_101
+    21300204: blasters_sprite_sheet_Red_102
+    21300206: blasters_sprite_sheet_Red_103
+    21300208: blasters_sprite_sheet_Red_104
+    21300210: blasters_sprite_sheet_Red_105
+    21300212: blasters_sprite_sheet_Red_106
+    21300214: blasters_sprite_sheet_Red_107
+    21300216: blasters_sprite_sheet_Red_108
+    21300218: blasters_sprite_sheet_Red_109
+    21300220: blasters_sprite_sheet_Red_110
+    21300222: blasters_sprite_sheet_Red_111
+    21300224: blasters_sprite_sheet_Red_112
+    21300226: blasters_sprite_sheet_Red_113
+    21300228: blasters_sprite_sheet_Red_114
+    21300230: blasters_sprite_sheet_Red_115
+    21300232: blasters_sprite_sheet_Red_116
+    21300234: blasters_sprite_sheet_Red_117
+    21300236: blasters_sprite_sheet_Red_118
+    21300238: blasters_sprite_sheet_Red_119
+    21300240: blasters_sprite_sheet_Red_120
+    21300242: blasters_sprite_sheet_Red_121
+    21300244: blasters_sprite_sheet_Red_122
+    21300246: blasters_sprite_sheet_Red_123
+    21300248: blasters_sprite_sheet_Red_124
+    21300250: blasters_sprite_sheet_Red_125
+    21300252: blasters_sprite_sheet_Red_126
+    21300254: blasters_sprite_sheet_Red_127
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: blasters_sprite_sheet_Red_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 960
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 960
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 960
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 960
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 960
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 960
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 960
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 961
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 896
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 896
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 896
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 896
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 896
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 896
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_14
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 896
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_15
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 897
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 832
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 832
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 832
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 832
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 832
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 832
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 832
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_23
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 833
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 768
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 768
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 768
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 768
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 768
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 768
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 768
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_31
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 769
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 704
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 704
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 704
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_35
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 704
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_36
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 704
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_37
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 704
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_38
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 704
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_39
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 705
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 640
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 640
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 640
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 640
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_44
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 640
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 640
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 640
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_47
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 641
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 576
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 576
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 576
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_51
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 576
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 576
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_53
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 576
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 576
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_55
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 577
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_56
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 512
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 512
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_58
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 512
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_59
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 512
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_60
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 512
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_61
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_62
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 512
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_63
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 513
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_64
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 448
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_65
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 448
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_66
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 448
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_67
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 448
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_68
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 448
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_69
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 448
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_70
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 448
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_71
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 449
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_72
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 384
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_73
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 384
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 384
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_75
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 384
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_76
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 384
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_77
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 384
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_78
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 384
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_79
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 385
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 321
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_81
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 321
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 321
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_83
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 321
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_84
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 321
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_85
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 321
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_86
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 321
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_87
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 321
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_88
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 257
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_89
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 257
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_90
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 257
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_91
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 257
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_92
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 257
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_93
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 257
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_94
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 257
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_95
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 258
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_96
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 193
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_97
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 193
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_98
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 193
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_99
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 193
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_100
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 193
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_101
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 193
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_102
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 193
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_103
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 194
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_104
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 129
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_105
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 129
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_106
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 129
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_107
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 129
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_108
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 129
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_109
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 129
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_110
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 129
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_111
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 130
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_112
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 65
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_113
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_114
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 65
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_115
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 65
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_116
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 65
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_117
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 65
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_118
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 65
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_119
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 66
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_120
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_121
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_123
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_124
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_125
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_126
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Red_127
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

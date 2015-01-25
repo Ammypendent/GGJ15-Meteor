@@ -17,6 +17,8 @@ public class CustomGravity : MonoBehaviour
 	public float timeDilationShotRadius;
 	Vector3 timeDilationEntryVelocity;
 
+	public GameObject portalEffect;
+
 	// Use this for initialization
 	protected virtual void Start()
 	{
@@ -76,7 +78,8 @@ public class CustomGravity : MonoBehaviour
 	void UpdateVelocity(Vector3 oldVelocity)
 	{
 		//rigidbody.velocity *= -0.5f;
-		rigidbody.velocity = new Vector3(oldVelocity.x * -0.75f, (v3GravityCenter.y - transform.position.y) + Random.Range(-3f, 3f), 0);
+		//rigidbody.velocity = new Vector3(oldVelocity.x * -0.75f, (v3GravityCenter.y - transform.position.y) + Random.Range(-3f, 3f), 0);
+		rigidbody.velocity = new Vector3(oldVelocity.x * -0.75f, oldVelocity.y * 0.75f + Random.Range(-3f, 3f), 0);
 	}
 
 	void Teleport(Vector3 destination)
@@ -86,11 +89,16 @@ public class CustomGravity : MonoBehaviour
 
 	IEnumerator DelayTeleport(Vector3 destination)
 	{
+		GameObject newPortal = Instantiate(portalEffect, transform.position, Quaternion.identity) as GameObject;
+		Destroy(newPortal, 0.5f);
 		teleporting = true;
 		gravityOn = false;
 		Vector3 lastVelocity = rigidbody.velocity;
 		rigidbody.velocity = Vector3.zero;
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.25f);
+		newPortal = Instantiate(portalEffect, destination, Quaternion.identity) as GameObject;
+		Destroy(newPortal, 0.5f);
+		yield return new WaitForSeconds(0.25f);
 		Teleport(destination);
 		yield return new WaitForSeconds(0.5f);
 		UpdateVelocity(lastVelocity);

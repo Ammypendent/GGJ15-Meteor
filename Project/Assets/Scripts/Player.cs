@@ -15,7 +15,7 @@ public class Player : MonoBehaviour {
 	{
 		if (collider.tag == "Asteroid")
 		{
-			if (player == id.PlayerRight)
+			if (player == id.PlayerLeft)
 			{
 				Global.playerOneHealth--;
 				if (Global.playerOneHealth <= 0)
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour {
 					Global.EndGame();
 				}
 			}
-			else if (player == id.PlayerLeft)
+			else if (player == id.PlayerRight)
 			{
 				Global.playerTwoHealth--;
 				if (Global.playerTwoHealth <=0)
