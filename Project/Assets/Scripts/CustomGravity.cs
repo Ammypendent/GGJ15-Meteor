@@ -47,7 +47,8 @@ public class CustomGravity : MonoBehaviour
 
 	void UpdateVelocity()
 	{
-		rigidbody.velocity *= -0.5f;
+		//rigidbody.velocity *= -0.5f;
+		rigidbody.velocity = new Vector3 (rigidbody.velocity.x * -0.5f, (v3GravityCenter.y - transform.position.y) + Random.Range(-0.03f, 0.03f), 0);
 	}
 
 	void Teleport(Vector3 destination)
