@@ -46,7 +46,6 @@ public class CustomGravity : MonoBehaviour
 		if(dilating)
 		{
 			timeDilationFactor = Mathf.Min(Mathf.Max((timeDilationCenter - transform.position).magnitude / timeDilationShotRadius, 0.2f), 1);
-			print (timeDilationFactor);
 		}
 	}
 
@@ -67,7 +66,6 @@ public class CustomGravity : MonoBehaviour
 
 	public void Impact(Vector3 destination)
 	{
-		print ("Gravity Script");
 		if(!teleporting)
 		{
 			StartCoroutine(DelayTeleport(destination));
@@ -107,7 +105,6 @@ public class CustomGravity : MonoBehaviour
 			timeDilationShotRadius = radius;
 			timeDilationCenter = center;
 			timeDilationEntryVelocity = rigidbody.velocity;
-			print (timeDilationEntryVelocity);
 			dilating = true;
 		}
 	}
