@@ -1,18 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// XBox Gamepad library.
-using XInputDotNetPure;
-
+// This doesn't handle controls anymore, so this name doesn't really apply anymore.
 public class RightGunControls : MonoBehaviour {
 
 	public int gunSpeed;
 	public GameObject bullet;
-
-	private bool playerIndexSet = false;
-	private PlayerIndex playerIndex;
-	private GamePadState state;
-	private GamePadState prevState;
 
 	// Use this for initialization
 	void Start () {
@@ -29,9 +22,18 @@ public class RightGunControls : MonoBehaviour {
 				this.transform.RotateAround (Vector3.zero, Vector3.forward, speed * gunSpeed * Time.deltaTime);
 	}
 
-	public void fireGun()
+	public void fireTeleport()
 	{
-		Instantiate (bullet, this.transform.position, Quaternion.identity);
+		Vector3 spawnPoint = this.transform.position.normalized;
+		spawnPoint.x *= 0.425f;
+		spawnPoint.y *= 0.425f;
+		spawnPoint.z *= 0.425f;
+		Instantiate (bullet, spawnPoint, Quaternion.identity);
+	}
+
+	public void fireTime()
+	{
+		;//Do time dialation fire stuff.
 	}
 
 }

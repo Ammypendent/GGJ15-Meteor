@@ -63,10 +63,14 @@ public class MasterControlScript : MonoBehaviour {
 			statePlayerOne = GamePad.GetState (playerOne);
 
 			// Detect if a button was pressed this frame
-			if (prevStatePlayerOne.Buttons.A == ButtonState.Released && statePlayerOne.Buttons.A == ButtonState.Pressed) {
-					leftGun.fireGun ();
+			if (prevStatePlayerOne.Buttons.A == ButtonState.Released && statePlayerOne.Buttons.A == ButtonState.Pressed) 
+			{
+				leftGun.fireTeleport ();
 			}
-
+			else if (prevStatePlayerOne.Buttons.X == ButtonState.Released && statePlayerOne.Buttons.X == ButtonState.Pressed)
+			{
+				leftGun.fireTime();
+			}
 			if (statePlayerOne.ThumbSticks.Left.Y > 0.1 || statePlayerOne.ThumbSticks.Left.Y < -0.1)
 					leftGun.moveGun (statePlayerOne.ThumbSticks.Left.Y);
 		} 
@@ -77,9 +81,13 @@ public class MasterControlScript : MonoBehaviour {
 			if (Input.GetKey("s") && this.transform.position.y > -0.215)
 				leftGun.moveGun(-1f);
 			
-			if (Input.GetKeyDown ("space")) 
+			if (Input.GetKeyDown ("a")) 
 			{
-				leftGun.fireGun();
+				leftGun.fireTeleport();
+			}
+			else if (Input.GetKeyDown ("d"))
+			{
+				leftGun.fireTime();
 			}
 		}
 
@@ -91,7 +99,11 @@ public class MasterControlScript : MonoBehaviour {
 			// Detect if a button was pressed this frame
 			if (prevStatePlayerTwo.Buttons.A == ButtonState.Released && statePlayerTwo.Buttons.A == ButtonState.Pressed)
 			{
-				rightGun.fireGun ();
+				rightGun.fireTeleport ();
+			}
+			else if (prevStatePlayerTwo.Buttons.X == ButtonState.Released && statePlayerTwo.Buttons.X == ButtonState.Pressed)
+			{
+				rightGun.fireTime ();
 			}
 			
 			if (statePlayerTwo.ThumbSticks.Left.Y > 0.1 || statePlayerTwo.ThumbSticks.Left.Y < -0.1)
@@ -108,7 +120,7 @@ public class MasterControlScript : MonoBehaviour {
 			
 			if (Input.GetKeyDown ("return")) 
 			{
-				rightGun.fireGun ();
+				rightGun.fireTeleport ();
 			}
 		}
 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// This doesn't handle controls anymore, so the name doesn't really apply anymore.
 public class LeftGunControls : MonoBehaviour {
 
 	public int gunSpeed;
@@ -21,8 +22,17 @@ public class LeftGunControls : MonoBehaviour {
 			this.transform.RotateAround (Vector3.zero, Vector3.back, speed * gunSpeed * Time.deltaTime);
 	}
 	
-	public void fireGun()
+	public void fireTeleport()
 	{
-		Instantiate (bullet, this.transform.position, Quaternion.identity);
+		Vector3 spawnPoint = this.transform.position.normalized;
+		spawnPoint.x *= 0.425f;
+		spawnPoint.y *= 0.425f;
+		spawnPoint.z *= 0.425f;
+		Instantiate (bullet, spawnPoint, Quaternion.identity);
+	}
+
+	public void fireTime()
+	{
+		;//do time dialation stuff
 	}
 }
