@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 // XBox Gamepad library.
@@ -128,3 +128,4 @@ public class MasterControlScript : MonoBehaviour {
 
 	}
 }
+*/
