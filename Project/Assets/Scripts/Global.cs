@@ -10,7 +10,9 @@ public static class Global {
 	public static int playerOneHealth;
 	public static int playerTwoHealth;
 
-
+	// The amount of remaining health that triggers playing faster and faster music.
+	public static int mediumMusic;
+	public static int fastMusic;
 
 	public static float gameTime;
 
@@ -20,6 +22,10 @@ public static class Global {
 	{
 		playerOneHealth = 20;
 		playerTwoHealth = 20;
+		// Change these if health is updated.  
+		// 50% max health for medium, 25% max health for fast.
+		mediumMusic = 10;
+		fastMusic = 5;
 
 		gameTime = 0;
 
