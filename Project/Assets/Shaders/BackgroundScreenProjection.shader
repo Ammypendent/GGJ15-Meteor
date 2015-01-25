@@ -1,4 +1,4 @@
-﻿Shader "Custom/Transparent Cutout Unlit"
+﻿Shader "Custom/Background Screen Projection"
 {
 	Properties
 	{
@@ -7,11 +7,9 @@
 	}
 	SubShader
 	{
-		Tags { "RenderType"="Transparent" "IgnoreProjectors"="True" "Queue"="Transparent"}
+		Tags { "RenderType"="Opaque" }
 		Pass
 		{
-			Blend SrcAlpha OneMinusSrcAlpha
-			
 			CGPROGRAM
 			#pragma vertex vert  
 			#pragma fragment frag 
@@ -34,10 +32,7 @@
 	            float4 pos : SV_POSITION;
 	            float3 normalDir : TEXCOORD0;
 	            float3 viewDir : TEXCOORD1;
-//	            float3 normalWorld : TEXCOORD2;
-//				float3 tangentWorld : TEXCOORD3;
-//				float3 binormalWorld : TEXCOORD4;
-				float2 tex : TEXCOORD2;
+				float4 tex : TEXCOORD2;
 			};
 
 			vertexOutput vert(vertexInput input) 
@@ -53,18 +48,19 @@
 				output.normalDir = normalize(mul(float4(input.normal, 0.0), modelMatrixInverse).xyz);
 				output.pos = mul(UNITY_MATRIX_MVP, input.vertex);
 				
-//				output.tangentWorld = normalize(mul(_Object2World, input.tangent).xyz);
-//				output.normalWorld = normalize(mul(float4(input.normal, 0.0), _World2Object).xyz);
-//				output.binormalWorld = normalize(cross(output.normalWorld, output.tangentWorld) * input.tangent.w);
-				
-				output.tex = outCoord;
+				output.tex = mul(UNITY_MATRIX_MVP, input.vertex);
 					
 				return output;
 			}
 	 
 			float4 frag(vertexOutput input) : COLOR
 			{
-				fixed4 tex = tex2D(_MainTex, _MainTex_ST.xy * input.tex.xy + _MainTex_ST.zw) * _Color;
+				float4 clipSpace = input.tex;
+				clipSpace.xy /= clipSpace.w;
+				clipSpace.x *= _ScreenParams.x / _ScreenParams.y;
+				clipSpace.xy = clipSpace.xy * 0.5 + 0.5;
+				
+				fixed4 tex = tex2D(_MainTex, _MainTex_ST.xy * clipSpace.xy + _MainTex_ST.zw) * _Color;
 				
 				return tex;
 			}

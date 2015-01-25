@@ -22,7 +22,7 @@ public class TeleportBullet : MonoBehaviour
 	void OnCollisionEnter(Collision other)
 	{
 		CustomGravity otherScript = other.gameObject.GetComponent<CustomGravity>();
-		otherScript.Impact(new Vector3 (other.transform.position.x * -1.2f, other.transform.position.y, other.transform.position.z));
+		otherScript.Impact(new Vector3 ((other.transform.position.x * -1.0f) - (other.transform.position.normalized).x * 0.2f, other.transform.position.y + Random.Range(-0.1f, 0.1f), other.transform.position.z));
 		//otherScript.Teleport(new Vector3(other.transform.position.x * -1.2f, other.transform.position.y, other.transform.position.z));
 		//otherScript.UpdateVelocity();
 		Destroy(gameObject);
