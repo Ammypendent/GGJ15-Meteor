@@ -6,6 +6,7 @@ public class RightGunControls : MonoBehaviour {
 
 	public int gunSpeed;
 	public GameObject bullet;
+	public GameObject timeBullet;
 
 	// Use this for initialization
 	void Start () {
@@ -33,7 +34,11 @@ public class RightGunControls : MonoBehaviour {
 
 	public void fireTime()
 	{
-		;//Do time dialation fire stuff.
+		Vector3 spawnPoint = this.transform.position.normalized;
+		spawnPoint.x *= 0.425f;
+		spawnPoint.y *= 0.425f;
+		spawnPoint.z *= 0.425f;
+		Instantiate (timeBullet, spawnPoint, Quaternion.identity);
 	}
 
 }
