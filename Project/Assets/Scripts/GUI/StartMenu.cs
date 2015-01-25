@@ -198,7 +198,7 @@ public class StartMenu : MonoBehaviour {
 				GUI.DrawTexture(new Rect(0, 0, (Screen.width), (Screen.height)),Controls1);
 			}
 
-			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 290, 150, 50), "Main Menu")) 
+			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 310, 150, 50), "Main Menu")) 
 			{
 				ourMenu = menuIs.Start;
 			}
