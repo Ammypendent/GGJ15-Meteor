@@ -17,9 +17,9 @@ public class Bullet : MonoBehaviour {
 	void Update () {
 		if (this.transform.position != Vector3.zero) 
 		{
-			this.transform.position = new Vector3 (this.transform.position.normalized.x * 0.01f + this.transform.position.x, 
-			                              		   this.transform.position.normalized.y * 0.01f + this.transform.position.y, 
-			                                       this.transform.position.normalized.z * 0.01f + this.transform.position.z);
+			this.transform.position = new Vector3 (this.transform.position.normalized.x * 1f + this.transform.position.x, 
+			                              		   this.transform.position.normalized.y * 1f + this.transform.position.y, 
+			                                       this.transform.position.normalized.z * 1f + this.transform.position.z);
 
 		}
 

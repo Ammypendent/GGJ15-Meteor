@@ -31,7 +31,7 @@ public class TeleportBullet : MonoBehaviour
 			CustomGravity otherScript;
 			for(int i = 0; i < asteroids.Length; i++)
 			{
-				Ray ray = new Ray(transform.position, asteroids[i].transform.position);
+				Ray ray = new Ray(transform.position, (asteroids[i].transform.position - transform.position).normalized);
 				if(Physics.Raycast(ray, out hit, effectRadius))
 				{
 					if(hit.collider.gameObject == asteroids[i])
@@ -39,9 +39,10 @@ public class TeleportBullet : MonoBehaviour
 						otherScript = hit.collider.gameObject.GetComponent<CustomGravity>();
 						if(bulletType == BType.Teleport)
 						{
+							//*** TODO!! -- ADD GRAPHICS ***
 							//Instantiate(***TELEPORT POINT A***, transform.position, Quaternion.identity);
 							//Instantiate(***TELEPORT POINT B***, new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-0.125f, 0.125f), hit.collider.transform.position.z), Quaternion.identity);
-							otherScript.Impact(new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-0.125f, 0.125f), hit.collider.transform.position.z));
+							otherScript.Impact(new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-12.5f, 12.5f), hit.collider.transform.position.z));
 						}
 						else// if(bulletType == BType.TimeDilation)
 						{
