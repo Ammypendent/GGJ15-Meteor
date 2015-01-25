@@ -66,7 +66,9 @@
      <Compile Include="Assets\Scripts\TimeBullet.cs" />
      <Compile Include="Assets\Scripts\TimeDilation.cs" />
      <Compile Include="Assets\XInputDotNet\Examples\XInputTestCS.cs" />
+     <None Include="Assets\Shaders\Normal Specular RimLight.shader" />
      <None Include="Assets\Shaders\TransparentCutoutUnlit.shader" />
+     <None Include="Assets\Shaders\Normal Specular.shader" />
      <None Include="Assets\XInputDotNet\MITLicense.txt" />
      <None Include="Assets\Imports\BackgroundScreenProjection.shader" />
      <None Include="Assets\Shaders\BackgroundScreenProjection.shader" />
