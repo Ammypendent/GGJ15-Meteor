@@ -26,9 +26,9 @@ public class StartMenu : MonoBehaviour {
 	
 	void OnGUI()
 	{
-		GUI.contentColor = Color.green; // Changes the font to Green
-		GUI.Label(new Rect(Screen.width / 2 - 230, Screen.height / 2 - 180 , title.width, title.height),title);// Produces the Title
-		
+
+		GUI.DrawTexture(new Rect(0,0, Screen.width, Screen.height),title);// Produces the Title
+		GUI.contentColor = Color.green; // Changes the font to green
 		FirstMenu();
 		ControlMenu();
 		FinishedMenu();
@@ -83,7 +83,7 @@ public class StartMenu : MonoBehaviour {
 		{
 				_isFirstMenu = false;
 				GUI.contentColor = Color.white;
-			GUI.Label(new Rect(0, 0, (Screen.width), (Screen.height)),Controls);
+			GUI.DrawTexture(new Rect(0, 0, (Screen.width), (Screen.height)),Controls);
 			//GUI.Label(new Rect(0, 0, (Screen.width), (Screen.height)),Controls1);
 
 			
