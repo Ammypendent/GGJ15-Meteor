@@ -35,6 +35,7 @@ public class LeftGunControls : MonoBehaviour {
 	{
 		if (currentTeleportCooldown >= Global.teleportCooldown) 
 		{
+			currentTeleportCooldown = 0;
 			Vector3 spawnPoint = this.transform.position.normalized;
 			spawnPoint.x *= 42.5f;
 			spawnPoint.y *= 42.5f;
@@ -47,6 +48,7 @@ public class LeftGunControls : MonoBehaviour {
 	{
 		if (currentTimeCooldown >= Global.timeCooldown) 
 		{
+			currentTimeCooldown = 0;
 			Vector3 spawnPoint = this.transform.position.normalized;
 			spawnPoint.x *= 42.5f;
 			spawnPoint.y *= 42.5f;
