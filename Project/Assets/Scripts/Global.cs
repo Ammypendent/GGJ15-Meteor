@@ -53,7 +53,7 @@ public static class Global {
 		{
 			Debug.Log("Player Two Survived the onslaught");
 		}
-		GameRunning = false;
+		GameFinished = true;
 	}
 	
 }

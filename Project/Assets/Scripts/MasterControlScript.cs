@@ -118,11 +118,11 @@ public class MasterControlScript : MonoBehaviour {
 			if (Input.GetKey("down") && this.transform.position.y > -0.215)
 				rightGun.moveGun(-1f);
 			
-			if (Input.GetKeyDown ("return")) 
+			if (Input.GetKeyDown ("left")) 
 			{
 				rightGun.fireTeleport ();
 			}
-			else if (Input.GetKeyDown ("right shift"))
+			else if (Input.GetKeyDown ("right"))
 			{
 				rightGun.fireTime();
 			}

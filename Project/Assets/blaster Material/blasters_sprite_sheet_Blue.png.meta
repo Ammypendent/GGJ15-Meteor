@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: c99ef08642235ec4ebd8956e1ead9ec3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blasters_sprite_sheet_Blue_0
+    21300002: blasters_sprite_sheet_Blue_1
+    21300004: blasters_sprite_sheet_Blue_2
+    21300006: blasters_sprite_sheet_Blue_3
+    21300008: blasters_sprite_sheet_Blue_4
+    21300010: blasters_sprite_sheet_Blue_5
+    21300012: blasters_sprite_sheet_Blue_6
+    21300014: blasters_sprite_sheet_Blue_7
+    21300016: blasters_sprite_sheet_Blue_8
+    21300018: blasters_sprite_sheet_Blue_9
+    21300020: blasters_sprite_sheet_Blue_10
+    21300022: blasters_sprite_sheet_Blue_11
+    21300024: blasters_sprite_sheet_Blue_12
+    21300026: blasters_sprite_sheet_Blue_13
+    21300028: blasters_sprite_sheet_Blue_14
+    21300030: blasters_sprite_sheet_Blue_15
+    21300032: blasters_sprite_sheet_Blue_16
+    21300034: blasters_sprite_sheet_Blue_17
+    21300036: blasters_sprite_sheet_Blue_18
+    21300038: blasters_sprite_sheet_Blue_19
+    21300040: blasters_sprite_sheet_Blue_20
+    21300042: blasters_sprite_sheet_Blue_21
+    21300044: blasters_sprite_sheet_Blue_22
+    21300046: blasters_sprite_sheet_Blue_23
+    21300048: blasters_sprite_sheet_Blue_24
+    21300050: blasters_sprite_sheet_Blue_25
+    21300052: blasters_sprite_sheet_Blue_26
+    21300054: blasters_sprite_sheet_Blue_27
+    21300056: blasters_sprite_sheet_Blue_28
+    21300058: blasters_sprite_sheet_Blue_29
+    21300060: blasters_sprite_sheet_Blue_30
+    21300062: blasters_sprite_sheet_Blue_31
+    21300064: blasters_sprite_sheet_Blue_32
+    21300066: blasters_sprite_sheet_Blue_33
+    21300068: blasters_sprite_sheet_Blue_34
+    21300070: blasters_sprite_sheet_Blue_35
+    21300072: blasters_sprite_sheet_Blue_36
+    21300074: blasters_sprite_sheet_Blue_37
+    21300076: blasters_sprite_sheet_Blue_38
+    21300078: blasters_sprite_sheet_Blue_39
+    21300080: blasters_sprite_sheet_Blue_40
+    21300082: blasters_sprite_sheet_Blue_41
+    21300084: blasters_sprite_sheet_Blue_42
+    21300086: blasters_sprite_sheet_Blue_43
+    21300088: blasters_sprite_sheet_Blue_44
+    21300090: blasters_sprite_sheet_Blue_45
+    21300092: blasters_sprite_sheet_Blue_46
+    21300094: blasters_sprite_sheet_Blue_47
+    21300096: blasters_sprite_sheet_Blue_48
+    21300098: blasters_sprite_sheet_Blue_49
+    21300100: blasters_sprite_sheet_Blue_50
+    21300102: blasters_sprite_sheet_Blue_51
+    21300104: blasters_sprite_sheet_Blue_52
+    21300106: blasters_sprite_sheet_Blue_53
+    21300108: blasters_sprite_sheet_Blue_54
+    21300110: blasters_sprite_sheet_Blue_55
+    21300112: blasters_sprite_sheet_Blue_56
+    21300114: blasters_sprite_sheet_Blue_57
+    21300116: blasters_sprite_sheet_Blue_58
+    21300118: blasters_sprite_sheet_Blue_59
+    21300120: blasters_sprite_sheet_Blue_60
+    21300122: blasters_sprite_sheet_Blue_61
+    21300124: blasters_sprite_sheet_Blue_62
+    21300126: blasters_sprite_sheet_Blue_63
+    21300128: blasters_sprite_sheet_Blue_64
+    21300130: blasters_sprite_sheet_Blue_65
+    21300132: blasters_sprite_sheet_Blue_66
+    21300134: blasters_sprite_sheet_Blue_67
+    21300136: blasters_sprite_sheet_Blue_68
+    21300138: blasters_sprite_sheet_Blue_69
+    21300140: blasters_sprite_sheet_Blue_70
+    21300142: blasters_sprite_sheet_Blue_71
+    21300144: blasters_sprite_sheet_Blue_72
+    21300146: blasters_sprite_sheet_Blue_73
+    21300148: blasters_sprite_sheet_Blue_74
+    21300150: blasters_sprite_sheet_Blue_75
+    21300152: blasters_sprite_sheet_Blue_76
+    21300154: blasters_sprite_sheet_Blue_77
+    21300156: blasters_sprite_sheet_Blue_78
+    21300158: blasters_sprite_sheet_Blue_79
+    21300160: blasters_sprite_sheet_Blue_80
+    21300162: blasters_sprite_sheet_Blue_81
+    21300164: blasters_sprite_sheet_Blue_82
+    21300166: blasters_sprite_sheet_Blue_83
+    21300168: blasters_sprite_sheet_Blue_84
+    21300170: blasters_sprite_sheet_Blue_85
+    21300172: blasters_sprite_sheet_Blue_86
+    21300174: blasters_sprite_sheet_Blue_87
+    21300176: blasters_sprite_sheet_Blue_88
+    21300178: blasters_sprite_sheet_Blue_89
+    21300180: blasters_sprite_sheet_Blue_90
+    21300182: blasters_sprite_sheet_Blue_91
+    21300184: blasters_sprite_sheet_Blue_92
+    21300186: blasters_sprite_sheet_Blue_93
+    21300188: blasters_sprite_sheet_Blue_94
+    21300190: blasters_sprite_sheet_Blue_95
+    21300192: blasters_sprite_sheet_Blue_96
+    21300194: blasters_sprite_sheet_Blue_97
+    21300196: blasters_sprite_sheet_Blue_98
+    21300198: blasters_sprite_sheet_Blue_99
+    21300200: blasters_sprite_sheet_Blue_100
+    21300202: blasters_sprite_sheet_Blue_101
+    21300204: blasters_sprite_sheet_Blue_102
+    21300206: blasters_sprite_sheet_Blue_103
+    21300208: blasters_sprite_sheet_Blue_104
+    21300210: blasters_sprite_sheet_Blue_105
+    21300212: blasters_sprite_sheet_Blue_106
+    21300214: blasters_sprite_sheet_Blue_107
+    21300216: blasters_sprite_sheet_Blue_108
+    21300218: blasters_sprite_sheet_Blue_109
+    21300220: blasters_sprite_sheet_Blue_110
+    21300222: blasters_sprite_sheet_Blue_111
+    21300224: blasters_sprite_sheet_Blue_112
+    21300226: blasters_sprite_sheet_Blue_113
+    21300228: blasters_sprite_sheet_Blue_114
+    21300230: blasters_sprite_sheet_Blue_115
+    21300232: blasters_sprite_sheet_Blue_116
+    21300234: blasters_sprite_sheet_Blue_117
+    21300236: blasters_sprite_sheet_Blue_118
+    21300238: blasters_sprite_sheet_Blue_119
+    21300240: blasters_sprite_sheet_Blue_120
+    21300242: blasters_sprite_sheet_Blue_121
+    21300244: blasters_sprite_sheet_Blue_122
+    21300246: blasters_sprite_sheet_Blue_123
+    21300248: blasters_sprite_sheet_Blue_124
+    21300250: blasters_sprite_sheet_Blue_125
+    21300252: blasters_sprite_sheet_Blue_126
+    21300254: blasters_sprite_sheet_Blue_127
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: blasters_sprite_sheet_Blue_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 960
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 960
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 960
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 960
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 960
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 960
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 960
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 961
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 896
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 896
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 896
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 896
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 896
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 896
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_14
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 896
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 897
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 832
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 832
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 832
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 832
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 832
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 832
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 832
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_23
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 833
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 768
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 768
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_26
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 768
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 768
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 768
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 768
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 768
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_31
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 769
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 704
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 704
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 704
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_35
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 704
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_36
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 704
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_37
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 704
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_38
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 704
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_39
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 705
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 640
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 640
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 640
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 640
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_44
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 640
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 640
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 640
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_47
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 641
+        width: 17
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 576
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 576
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 576
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_51
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 576
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 576
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_53
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 576
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 576
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_55
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 577
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_56
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 512
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_57
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 512
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_58
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 512
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_59
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 512
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_60
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 512
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_61
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 512
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_62
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 512
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_63
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 513
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_64
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 448
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 448
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_66
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 448
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_67
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 448
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_68
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 448
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_69
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 448
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_70
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 448
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_71
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 449
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_72
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 384
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_73
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 384
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 384
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_75
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 384
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_76
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 384
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_77
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 384
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_78
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 384
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_79
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 385
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 321
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 321
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_82
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 321
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_83
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 321
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_84
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 321
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_85
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 321
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_86
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 321
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_87
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 321
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_88
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 257
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_89
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 257
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_90
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 257
+        width: 21
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_91
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 257
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_92
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 257
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_93
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 257
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_94
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 257
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_95
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 258
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_96
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 193
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_97
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 193
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_98
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 193
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_99
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 193
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_100
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 193
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_101
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 193
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_102
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 193
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_103
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 194
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_104
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 129
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_105
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 129
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_106
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 129
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_107
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 129
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_108
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 129
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_109
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 129
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_110
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 129
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_111
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 130
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_112
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 65
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 65
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_114
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 65
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_115
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 65
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_116
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 65
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_117
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 65
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_118
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 65
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_119
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 66
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_120
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_121
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_123
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_124
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_125
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_126
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blasters_sprite_sheet_Blue_127
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
