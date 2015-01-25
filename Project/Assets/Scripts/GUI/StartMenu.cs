@@ -3,38 +3,44 @@ using System.Collections;
 
 public class StartMenu : MonoBehaviour {
 	private bool _isFirstMenu = true;
-	private bool _isLevelSelectMenu = false;
-	private bool _isLoadGameMenu = false;
-	private bool _isOptionsMenu = false;
+	private bool _isFinishedMenu = false;
+	private bool _isControlMenu = false;
 	public Texture title;
 	public Texture Controls;
-	void Start()
-	{
-	
-	}
+	public Texture Controls1;
+	public static bool GameRunning;
+	public static bool GameFinished;
+	public static int playerOneHealth = 20;
+	public static int playerTwoHealth= 20;
+
 	
 	// Update is called once per frame
 	void Update () 
 	{
+		if (Global.GameFinished) {
+		// Hud Menu changes to Finished Game
+			
+			_isFinishedMenu = true;		}
+
 	}
 	
 	void OnGUI()
 	{
-		GUI.contentColor = Color.green;
-		GUI.Label(new Rect(Screen.width / 2 - 230, Screen.height / 2 - 180 , title.width, title.height),title);
+		GUI.contentColor = Color.green; // Changes the font to Green
+		GUI.Label(new Rect(Screen.width / 2 - 230, Screen.height / 2 - 180 , title.width, title.height),title);// Produces the Title
 		
 		FirstMenu();
-		LoadGameMenu();
-		LevelSelectMenu();
-		OptionsMenu();
+		ControlMenu();
+		FinishedMenu();
+
+
 		
-		if(_isLevelSelectMenu == true || _isLoadGameMenu == true || _isOptionsMenu == true)
+		if(_isControlMenu == true)
 		{
-			if(GUI.Button(new Rect(10, Screen.height - 35, 150, 25), "Back"))
+			if(GUI.Button(new Rect(Screen.width/ 2 - 70, Screen.height/ 2 -10, 150, 25), "Back"))
 			{
-				_isLevelSelectMenu = false;
-				_isLoadGameMenu = false;
-				_isOptionsMenu = false;
+				_isFinishedMenu = false;
+				_isControlMenu = false;
 				_isFirstMenu = true;
 			}
 		}
@@ -42,67 +48,57 @@ public class StartMenu : MonoBehaviour {
 	
 	void FirstMenu()
 	{
-		if(_isFirstMenu)
+		if (_isFirstMenu) // Main Menu
 		{
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 100, 150, 25), "Begin Annihilation"))
+		if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 100, 150, 25), "Begin Annihilation")) 
 			{
-				Application.LoadLevel("Level01");
+					_isFirstMenu = false;
+					Global.StartGame ();
 			}
-			
-			if (GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 65, 150, 25), "War Schemes"))
+
+			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 65, 150, 25), "How To Play")) 
 			{
-				_isFirstMenu = false;
-				_isOptionsMenu = true;
+					_isFirstMenu = false;
+					_isControlMenu = true;
 			}
-			
-			if (GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 30, 150, 25), "Go AWOL"))
+
+			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 30, 150, 25), "Quit")) 
 			{
-				Application.Quit();
+					Application.Quit();
 			}
-			
-			/*if (GUI.Button(new Rect(10, Screen.height / 2 + 5, 150, 25), "Quit Game"))
+
+			//this is just for testing take out soon
+			/*if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 10, 150, 25), "Finals")) 
 			{
-				_isFirstMenu = false;
-				_isOptionsMenu = true;
-			}
-			
-			if (GUI.Button(new Rect(10, Screen.height / 2 + 40, 150, 25), "Quit Game"))
-			{
-				Application.Quit();
+					_isFirstMenu = false;
+					_isFinishedMenu = true;
+					
 			}*/
 		}
 	}
 	
-	void LoadGameMenu()
+	void ControlMenu()
 	{
-		if(_isLoadGameMenu)
+		if(_isControlMenu)
 		{
-			
-		}
-	}
-	
-	void LevelSelectMenu()
-	{
-		if(_isLevelSelectMenu)
-		{
-			
-		}
-	}
-	
-	void OptionsMenu()
-	{
-		if(_isOptionsMenu)
-		{
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 50, 150, 25), "War Schemes"))return;
-			{
+				_isFirstMenu = false;
 				GUI.contentColor = Color.white;
-				GUI.Label(new Rect(Screen.width / 2 - 505, Screen.height / 2 - 270 , Controls.width, Controls.height),Controls);
-			}
-			/*if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 50, 150, 25), "Engineers"))
-			{
+			GUI.Label(new Rect(0, 0, (Screen.width), (Screen.height)),Controls);
+			//GUI.Label(new Rect(0, 0, (Screen.width), (Screen.height)),Controls1);
 
-			}*/
+			
 		}
 	}
 
+	void FinishedMenu()
+	{
+		if (_isFinishedMenu == true) 
+		{
+			if (GUI.Button (new Rect (Screen.width / 2, Screen.height - 60, 150, 25), "Continue")) 
+			{
+				_isFirstMenu = true;
+				_isFinishedMenu = false;
+			}
+		}
+	}
 }
