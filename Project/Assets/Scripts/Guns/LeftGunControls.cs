@@ -8,13 +8,21 @@ public class LeftGunControls : MonoBehaviour {
 	public GameObject bullet;
 	public GameObject timeBullet;
 
+	private float currentTeleportCooldown;
+	private float currentTimeCooldown;
+
 	// Use this for initialization
 	void Start () {
+
+		currentTeleportCooldown = 10f;
+		currentTimeCooldown = 10f;
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		currentTeleportCooldown += Time.deltaTime;
+		currentTimeCooldown += Time.deltaTime;
 	}
 
 	public void moveGun(float speed)
@@ -25,19 +33,25 @@ public class LeftGunControls : MonoBehaviour {
 	
 	public void fireTeleport()
 	{
-		Vector3 spawnPoint = this.transform.position.normalized;
-		spawnPoint.x *= 42.5f;
-		spawnPoint.y *= 42.5f;
-		spawnPoint.z *= 42.5f;
-		Instantiate (bullet, spawnPoint, Quaternion.identity);
+		if (currentTeleportCooldown >= Global.teleportCooldown) 
+		{
+			Vector3 spawnPoint = this.transform.position.normalized;
+			spawnPoint.x *= 42.5f;
+			spawnPoint.y *= 42.5f;
+			spawnPoint.z *= 42.5f;
+			Instantiate (bullet, spawnPoint, Quaternion.identity);
+		}
 	}
 
 	public void fireTime()
 	{
-		Vector3 spawnPoint = this.transform.position.normalized;
-		spawnPoint.x *= 42.5f;
-		spawnPoint.y *= 42.5f;
-		spawnPoint.z *= 42.5f;
-		Instantiate (timeBullet, spawnPoint, Quaternion.identity);
+		if (currentTimeCooldown >= Global.timeCooldown) 
+		{
+			Vector3 spawnPoint = this.transform.position.normalized;
+			spawnPoint.x *= 42.5f;
+			spawnPoint.y *= 42.5f;
+			spawnPoint.z *= 42.5f;
+			Instantiate (timeBullet, spawnPoint, Quaternion.identity);
+		}
 	}
 }
