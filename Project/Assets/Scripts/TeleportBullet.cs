@@ -6,6 +6,9 @@ using System.Collections;
 
 public class TeleportBullet : MonoBehaviour
 {
+	public enum BType{Teleport, TimeDilation};
+	public BType bulletType;
+	public float effectRadius;
 
 	// Use this for initialization
 	void Start()
@@ -21,11 +24,61 @@ public class TeleportBullet : MonoBehaviour
 
 	void OnCollisionEnter(Collision other)
 	{
-		CustomGravity otherScript = other.gameObject.GetComponent<CustomGravity>();
-		otherScript.Impact(new Vector3 ((other.transform.position.x * -1.0f) - (other.transform.position.normalized).x * 0.2f, other.transform.position.y + Random.Range(-0.1f, 0.1f), other.transform.position.z));
-		//otherScript.Teleport(new Vector3(other.transform.position.x * -1.2f, other.transform.position.y, other.transform.position.z));
-		//otherScript.UpdateVelocity();
-		Destroy(gameObject);
+		if(other.gameObject.tag == "Asteroid")
+		{
+			GameObject[] asteroids = GameObject.FindGameObjectsWithTag ("Asteroid");
+			RaycastHit hit;
+			CustomGravity otherScript;
+			for(int i = 0; i < asteroids.Length; i++)
+			{
+				Ray ray = new Ray(transform.position, asteroids[i].transform.position);
+				if(Physics.Raycast(ray, out hit, effectRadius))
+				{
+					if(hit.collider.gameObject == asteroids[i])
+					{
+						otherScript = hit.collider.gameObject.GetComponent<CustomGravity>();
+						if(bulletType == BType.Teleport)
+						{
+							//Instantiate(***TELEPORT POINT A***, transform.position, Quaternion.identity);
+							//Instantiate(***TELEPORT POINT B***, new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-0.125f, 0.125f), hit.collider.transform.position.z), Quaternion.identity);
+							otherScript.Impact(new Vector3((hit.collider.transform.position.x * -1.0f) - (hit.collider.transform.position.normalized).x * 0.35f, hit.collider.transform.position.y + Random.Range(-0.125f, 0.125f), hit.collider.transform.position.z));
+						}
+						else// if(bulletType == BType.TimeDilation)
+						{
+							//Instantiate(***TIME DILATION BUBBLE***, transform.position, Quaternion.identity);
+						}
+					}
+				}
+			}
+
+			if(bulletType == BType.Teleport)
+			{
+
+			}
+			else// if(bulletType == BType.TimeDilation)
+			{
+
+			}
+			
+//			CustomGravity otherScript = other.gameObject.GetComponent<CustomGravity>();
+//			otherScript.Impact(new Vector3 ((other.transform.position.x * -1.0f) - (other.transform.position.normalized).x * 0.2f, other.transform.position.y + Random.Range(-0.1f, 0.1f), other.transform.position.z));
+			//otherScript.Teleport(new Vector3(other.transform.position.x * -1.2f, other.transform.position.y, other.transform.position.z));
+			//otherScript.UpdateVelocity();
+			Destroy(gameObject);
+		}
+//		GameObject[] asteroids = GameObject.FindGameObjectsWithTag ("Asteroid");
+//		RaycastHit hit;
+//		for(int i = 0; i < asteroids.Length; i++)
+//		{
+//			Ray ray = new Ray(transform.position, );
+//		}
+//
+//
+//		CustomGravity otherScript = other.gameObject.GetComponent<CustomGravity>();
+//		otherScript.Impact(new Vector3 ((other.transform.position.x * -1.0f) - (other.transform.position.normalized).x * 0.2f, other.transform.position.y + Random.Range(-0.1f, 0.1f), other.transform.position.z));
+//		//otherScript.Teleport(new Vector3(other.transform.position.x * -1.2f, other.transform.position.y, other.transform.position.z));
+//		//otherScript.UpdateVelocity();
+//		Destroy(gameObject);
 	}
 
 //	void UpdateVelocity(GameObject target)
