@@ -1,4 +1,4 @@
-﻿Shader "Texture Palette Specular"
+﻿Shader "Custom/Texture Palette Specular"
 {
 	Properties
 	{

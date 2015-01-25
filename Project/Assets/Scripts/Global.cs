@@ -16,7 +16,8 @@ public static class Global {
 
 	public static float gameTime;
 
-
+	public static float teleportCooldown;
+	public static float timeCooldown;
 
 	public static void StartGame ()
 	{
@@ -26,6 +27,10 @@ public static class Global {
 		// 50% max health for medium, 25% max health for fast.
 		mediumMusic = 10;
 		fastMusic = 5;
+
+		// Time in seconds between teleport and time shots.
+		teleportCooldown = 0.25f;
+		timeCooldown = 10f;
 
 		gameTime = 0;
 

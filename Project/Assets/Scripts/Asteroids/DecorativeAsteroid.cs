@@ -11,8 +11,8 @@ public class DecorativeAsteroid : CustomGravity
 	{
 		base.Start();
 		Destroy(collider);
-		transform.position = new Vector3(0, 0, 5);
-		rigidbody.velocity = new Vector3(rigidbody.velocity.x * 2.5f, Mathf.Sign(rigidbody.velocity.y) * 0.08f, -0.05f);
+		transform.position = new Vector3(0, 0, 500);
+		rigidbody.velocity = new Vector3(rigidbody.velocity.x * 2.5f, Mathf.Sign(rigidbody.velocity.y) * 8f, -0.05f);
 		mainCamera = Camera.main.gameObject;
 	}
 	

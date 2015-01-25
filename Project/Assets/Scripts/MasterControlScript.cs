@@ -122,6 +122,10 @@ public class MasterControlScript : MonoBehaviour {
 			{
 				rightGun.fireTeleport ();
 			}
+			else if (Input.GetKeyDown ("right shift"))
+			{
+				rightGun.fireTime();
+			}
 		}
 
 

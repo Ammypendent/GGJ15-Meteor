@@ -35,9 +35,9 @@ public class CustomGravity : MonoBehaviour
 		rigidbody.useGravity = false;
 
 		// Randomize attributes
-		rigidbody.velocity = new Vector3(Random.Range(-0.03f, 0.03f), Random.Range(-0.03f, 0.03f), 0);
+		rigidbody.velocity = new Vector3(Random.Range(-3f, 3f), Random.Range(-3f, 3f), 0);
 		rigidbody.angularVelocity = new Vector3(Random.Range(-3.3f, 3.3f), Random.Range(-3.3f, 3.3f), Random.Range(-3.3f, 3.3f));
-		transform.localScale = transform.localScale * Random.Range (0.95f, 1.05f);
+		transform.localScale = transform.localScale * Random.Range (0.9f, 1.1f);
 	}
 	
 	// Update is called once per frame
@@ -46,7 +46,6 @@ public class CustomGravity : MonoBehaviour
 		if(dilating)
 		{
 			timeDilationFactor = Mathf.Min(Mathf.Max((timeDilationCenter - transform.position).magnitude / timeDilationShotRadius, 0.2f), 1);
-			print (timeDilationFactor);
 		}
 	}
 
@@ -77,7 +76,7 @@ public class CustomGravity : MonoBehaviour
 	void UpdateVelocity(Vector3 oldVelocity)
 	{
 		//rigidbody.velocity *= -0.5f;
-		rigidbody.velocity = new Vector3(oldVelocity.x * -0.75f, (v3GravityCenter.y - transform.position.y) + Random.Range(-0.03f, 0.03f), 0);
+		rigidbody.velocity = new Vector3(oldVelocity.x * -0.75f, (v3GravityCenter.y - transform.position.y) + Random.Range(-3f, 3f), 0);
 	}
 
 	void Teleport(Vector3 destination)
@@ -106,7 +105,6 @@ public class CustomGravity : MonoBehaviour
 			timeDilationShotRadius = radius;
 			timeDilationCenter = center;
 			timeDilationEntryVelocity = rigidbody.velocity;
-			print (timeDilationEntryVelocity);
 			dilating = true;
 		}
 	}

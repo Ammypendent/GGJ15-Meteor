@@ -10,16 +10,19 @@ public class TimeDilation : MonoBehaviour
 	public float lifetime;
 	float spawnTime;
 	public float radius;
+	bool destruction;
 
 	// Use this for initialization
 	void Start()
 	{
+		destruction = false;
 		caughtAsteroids = new List<GameObject>();
 		spawnTime = Time.time;
 		if(radius == 0)
 		{
 			radius = transform.localScale.x;
 		}
+		initialGrab();
 	}
 	
 	// Update is called once per frame
@@ -27,21 +30,28 @@ public class TimeDilation : MonoBehaviour
 	{
 		if(Time.time - spawnTime > lifetime)
 		{
-			CustomGravity caughtScript;
-			for(int i = 0; i < caughtAsteroids.Count; i++)
+			if(!destruction)
 			{
-				caughtScript = caughtAsteroids[i].gameObject.GetComponent<CustomGravity>();
-				caughtScript.EndTimeDilation();
+				destruction = true;
+				CustomGravity caughtScript;
+				for(int i = 0; i < caughtAsteroids.Count; i++)
+				{
+					caughtScript = caughtAsteroids[i].gameObject.GetComponent<CustomGravity>();
+					caughtScript.EndTimeDilation();
+				}
+				Destroy(gameObject);
 			}
-			Destroy(gameObject);
 		}
 	}
 
 	void OnTriggerEnter(Collider other)
 	{
-		caughtAsteroids.Add(other.gameObject);
-		CustomGravity caughtScript = other.gameObject.GetComponent<CustomGravity>();
-		caughtScript.TimeDilation(transform.position, radius);
+		if(!destruction)
+		{
+			caughtAsteroids.Add(other.gameObject);
+			CustomGravity caughtScript = other.gameObject.GetComponent<CustomGravity>();
+			caughtScript.TimeDilation(transform.position, radius);
+		}
 	}
 
 	void OnTriggerExit(Collider other)
