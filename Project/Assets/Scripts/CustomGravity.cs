@@ -77,7 +77,7 @@ public class CustomGravity : MonoBehaviour
 	void UpdateVelocity(Vector3 oldVelocity)
 	{
 		//rigidbody.velocity *= -0.5f;
-		rigidbody.velocity = new Vector3(oldVelocity.x * -0.5f, (v3GravityCenter.y - transform.position.y) + Random.Range(-0.03f, 0.03f), 0);
+		rigidbody.velocity = new Vector3(oldVelocity.x * -0.75f, (v3GravityCenter.y - transform.position.y) + Random.Range(-0.03f, 0.03f), 0);
 	}
 
 	void Teleport(Vector3 destination)
@@ -99,10 +99,11 @@ public class CustomGravity : MonoBehaviour
 		teleporting = false;
 	}
 
-	public void TimeDilation(Vector3 center)
+	public void TimeDilation(Vector3 center, float radius)
 	{
 		if(!dilating)
 		{
+			timeDilationShotRadius = radius;
 			timeDilationCenter = center;
 			timeDilationEntryVelocity = rigidbody.velocity;
 			print (timeDilationEntryVelocity);

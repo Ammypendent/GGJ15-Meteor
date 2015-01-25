@@ -33,6 +33,8 @@ public class AsteroidCreator : MonoBehaviour {
 
 		timer = Random.Range (0.2f, 3.5f);
 		LastTimer = 0.0f;
+
+		Global.StartGame ();
 	}
 	
 	// Update is called once per frame

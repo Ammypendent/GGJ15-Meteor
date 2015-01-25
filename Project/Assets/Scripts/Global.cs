@@ -5,6 +5,7 @@ public static class Global {
 
 
 	public static bool GameRunning;
+	public static bool GameFinished;
 
 	public static int playerOneHealth;
 	public static int playerTwoHealth;
