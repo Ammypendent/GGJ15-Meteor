@@ -19,11 +19,12 @@ public class StartMenu : MonoBehaviour {
 	public Texture title;
 	public Texture Controls;
 	public Texture Controls1;
+	private bool controlMenuKeyboard;
 	public static bool GameRunning;
 	public static bool GameFinished;
 	public static int playerOneHealth = 20;
 	public static int playerTwoHealth= 20;
-	string[] startMenuButtons= new string[3] {"Begin Annihilation", "How To Play", "Quit"};
+	string[] startMenuButtons= new string[3] {"Begin", "How To Play", "Quit"};
 	int selected = 0;
 
 	
@@ -31,19 +32,26 @@ public class StartMenu : MonoBehaviour {
 	void Update () 
 	{
 		
-		if (ourMenu == menuIs.Start || ourMenu == menuIs.Control)
+		if (ourMenu == menuIs.Start) 
 		{
-			if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.DownArrow))
+			if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
 			{
-				selected = menuSelection(buttons, selected, "up");
+				selected = menuSelection(startMenuButtons, selected, "up");
 			}
 			
-			if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.UpArrow))
+			if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
 			{
-				selected = menuSelection(buttons, selected, "down");
+				selected = menuSelection(startMenuButtons, selected, "down");
 			}
 		}
-		else if (ourMenu == menuIs.Finished)
+		else if (ourMenu == menuIs.Control)
+		{
+			if (Input.GetKeyDown(KeyCode.Space))
+			{
+				controlMenuKeyboard = !controlMenuKeyboard;
+			}
+		}
+			else if (ourMenu == menuIs.Finished)
 		{
 			if (Input.GetKeyDown(KeyCode.Return))// || Input.GetKeyDown(KeyCode.Space))
 			{
@@ -72,27 +80,20 @@ public class StartMenu : MonoBehaviour {
 		ControlMenu();
 		FinishedMenu();
 
-		GUI.SetNextControlName(buttons[0]);
+		GUI.SetNextControlName(startMenuButtons[0]);
 		
-		GUI.FocusControl(buttons[selected]);
-		
-		if(_isControlMenu == true)
-		{
-			if(GUI.Button(new Rect(Screen.width/ 2 - 70, Screen.height/ 2 -10, 150, 25), "Back"))
-			{
-				_isFinishedMenu = false;
-				_isControlMenu = false;
-				_isFirstMenu = true;
-			}
-		}
+		GUI.FocusControl(startMenuButtons[selected]);
 
 		
 	}
-		void Start(){
-			
-			selected = 0;
-			
-		}
+
+	void Start()
+	{
+		selected = 0;
+		controlMenuKeyboard = true;
+	}
+
+
 		int menuSelection (string[] buttonsArray, int selectedItem, string direction) {
 			
 			if (direction == "up") {
@@ -129,27 +130,27 @@ public class StartMenu : MonoBehaviour {
 	
 	void FirstMenu()
 	{
-		if (_isFirstMenu) // Main Menu
+		if (ourMenu == menuIs.Start) // Main Menu
 		{
-
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), buttons[0]))
+			GUI.SetNextControlName(startMenuButtons[0]);
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), startMenuButtons[0]))
 			{
 				_isFirstMenu = false;
 				Global.StartGame ();
 			}
-			GUI.SetNextControlName(buttons[1]);
+			GUI.SetNextControlName(startMenuButtons[1]);
 			
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 75, 150, 50), buttons[1]))
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 75, 150, 50), startMenuButtons[1]))
 			{			
 				ourMenu = menuIs.Control;
 			}
-			GUI.SetNextControlName(buttons[2]);
+			GUI.SetNextControlName(startMenuButtons[2]);
 			
-			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 25, 150, 50), buttons[2]))
+			if(GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2 - 25, 150, 50), startMenuButtons[2]))
 			{
 				Application.Quit();
 			}
-
+			GUI.SetNextControlName(startMenuButtons[0]);
 
 		/*if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 125, 150, 50), "Begin Annihilation")) 
 			{
@@ -180,13 +181,27 @@ public class StartMenu : MonoBehaviour {
 	
 	void ControlMenu()
 	{
-		if(_isControlMenu)
+		if( ourMenu == menuIs.Control)
 		{
-			_isFirstMenu = false;
-			GUI.contentColor = Color.white;
-			GUI.DrawTexture(new Rect(0, 0, (Screen.width), (Screen.height)),Controls);
-			//GUI.Label(new Rect(0, 0, (Screen.width), (Screen.height)),Controls1);
+			if(Input.GetKeyDown(KeyCode.Escape))
+			{
+				ourMenu = menuIs.Start;
+			}
 
+			GUI.contentColor = Color.white;
+			if (controlMenuKeyboard)
+			{
+				GUI.DrawTexture(new Rect(0, 0, (Screen.width), (Screen.height)),Controls);
+			}
+			else
+			{
+				GUI.DrawTexture(new Rect(0, 0, (Screen.width), (Screen.height)),Controls1);
+			}
+
+			if (GUI.Button (new Rect (Screen.width / 2 - 70, Screen.height / 2 - 290, 150, 50), "Main Menu")) 
+			{
+				ourMenu = menuIs.Start;
+			}
 			
 		}
 	}
