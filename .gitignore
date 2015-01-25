@@ -1,1 +1,4 @@
 *.meta
+/Project/Library
+/Project/Library/metadata
+/Project/Library/ScriptAssemblies
